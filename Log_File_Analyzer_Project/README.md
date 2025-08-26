@@ -1,10 +1,10 @@
-# Log Analyzer
+Log File Analyzer
 
-# A lightweight Python script that parses Linux authentication logs (`/var/log/auth.log`) to detect **failed SSH login attempts** and generate a CSV report summarizing the number of failures per IP address.
+A lightweight Python script that parses Linux authentication logs (`/var/log/auth.log`) to detect **failed SSH login attempts** and generate a CSV report summarizing the number of failures per IP address.
 
-# This is useful for **system administrators, cybersecurity analysts, and hobbyists** who want to quickly identify brute-force attempts and potential malicious activity on their servers.
+This is useful for **system administrators, cybersecurity analysts, and hobbyists** who want to quickly identify brute-force attempts and potential malicious activity on their servers.
 
-# Features
+Features
 
 * Parses `auth.log` to detect failed SSH login attempts.
 * Extracts attacker IP addresses and counts their failed attempts.
