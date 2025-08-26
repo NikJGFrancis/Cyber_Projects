@@ -61,6 +61,3 @@ Use Cases
 * Detecting brute force SSH attacks.
 * Identifying suspicious IP addresses.
 * Feeding data into firewall rules (e.g., block frequent offenders).
----
-
-Would you like me to also add a **bonus section** in the README showing how to automatically block these IPs with `fail2ban` or a `ufw` script for extra value?
